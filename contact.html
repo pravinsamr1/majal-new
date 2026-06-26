@@ -4,9 +4,28 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shared on THEMELOCK.COM - Beeko - Business Consulting HTML Template</title>
-    <meta name="description" content="Beeko -  Business Consulting HTML Template">
+    <title>MAJAL IT NETWORKS & SECURITY | Contact Us</title>
+    <meta name="description"
+        content="MAJAL IT NETWORKS & SECURITY (MNC - MAJAL) provides high-quality low current systems, integrated security solutions, IT networks, structured cabling, CCTV surveillance, and access control across Saudi Arabia.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://majalnet.com/contact.html">
+    <meta property="og:title" content="MAJAL IT NETWORKS & SECURITY | Contact Us">
+    <meta property="og:description"
+        content="MAJAL IT NETWORKS & SECURITY (MNC - MAJAL) provides high-quality low current systems, integrated security solutions, IT networks, structured cabling, CCTV surveillance, and access control across Saudi Arabia.">
+    <meta property="og:image" content="assets/img/favicon.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://majalnet.com/contact.html">
+    <meta property="twitter:title" content="MAJAL IT NETWORKS & SECURITY | Contact Us">
+    <meta property="twitter:description"
+        content="MAJAL IT NETWORKS & SECURITY (MNC - MAJAL) provides high-quality low current systems, integrated security solutions, IT networks, structured cabling, CCTV surveillance, and access control across Saudi Arabia.">
+    <meta property="twitter:image" content="assets/img/favicon.png">
+
+    <link rel="canonical" href="https://majalnet.com/contact.html">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -23,7 +42,51 @@
     <link rel="stylesheet" href="assets/css/odometer.css">
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link class="main-css" rel="stylesheet" href="assets/css/main.css">
+    <style>
+        @media (min-width: 992px) {
+            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu {
+                min-width: 750px;
+                display: grid !important;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 20px;
+                gap: 5px 20px;
+                left: -150px;
+                /* shifts dropdown to align beautifully under the nav */
+                border-radius: 10px;
+            }
+
+            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li {
+                display: block;
+            }
+
+            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a {
+                padding: 10px 15px;
+                font-size: 16px;
+                border-radius: 6px;
+                transition: all 0.2s ease-in-out;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+
+            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a i {
+                margin-right: 12px;
+                color: var(--tg-theme-primary);
+                font-size: 16px;
+                width: 20px;
+                text-align: center;
+            }
+
+            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a::after {
+                content: none !important;
+            }
+        }
+
+        .project__thumb-two::before {
+            display: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -62,7 +125,7 @@
                     <div class="col-lg-5">
                         <div class="tg-header__top-right">
                             <ul class="list-wrap">
-                                <li><i class="flaticon-telephone"></i><a href="tel:0123456789">+(966) 540025337</a></li>
+                                <li><i class="flaticon-telephone"></i><a href="tel:+966540025337">+(966) 540025337</a></li>
                                 <li>
                                     <div class="tg-header__top-social">
                                         <ul class="list-wrap">
@@ -99,7 +162,7 @@
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                     <ul class="navigation p-relative">
-                                        <li class="active tg-mega-menu-has-children"><a href="#">Home</a></li>
+                                        <li class="tg-mega-menu-has-children"><a href="index.html">Home</a></li>
                                         <li class=""><a href="about.html">About Us</a></li>
                                         <li class="menu-item-has-children"><a href="#">Solutions</a>
                                             <ul class="sub-menu solutions-sub-menu">
@@ -153,10 +216,10 @@
                                                 <li><a href="services-details.html">Fire Alarm System</a></li>
                                             </ul>
                                         </li>
-                                        <li class=""><a href="#awards">Awards</a></li>
-                                        <li class=""><a href="#videos">videos</a></li>
+                                        <li class=""><a href="index.html#awards">Awards</a></li>
+                                        <li class=""><a href="index.html#videos">videos</a></li>
                                         <li class=""><a href="#">Blogs</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li class="active"><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="tgmenu__action tgmenu__action-six">
@@ -376,8 +439,7 @@
                                 </div>
                             </div>
                             <div class="contact__info-item">
-                                <h4 class="title">Email & Web</h4>
-                                <p><a href="https://www.majalnet.com" target="_blank">www.majalnet.com</a></p>
+                                <h4 class="title">Email</h4>
                                 <ul class="list-wrap">
                                     <li>
                                         <a href="mailto:info@majalnet.com">info@majalnet.com</a>
@@ -403,10 +465,6 @@
                                 <div class="form-grp">
                                     <label for="email">Email *</label>
                                     <input id="email" name="email" type="email">
-                                </div>
-                                <div class="form-grp">
-                                    <label for="website">Website *</label>
-                                    <input id="website" name="website" type="url">
                                 </div>
                                 <div class="form-grp">
                                     <label for="comment">Comment *</label>
@@ -437,118 +495,96 @@
     <!-- main-area-end -->
 
     <!-- footer-area -->
-    <footer class="footer__area-two footer__area-five fix">
-        <div class="container">
-            <div class="footer__top-two">
+    <footer class="footer__area-four fix">
+        
+        <div class="footer__top-three" style="padding-top: 80px;">
+            <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="footer__widget">
-                            <div class="footer__logo-two">
-                                <a href="index.html"><img src="assets/img/logo/w_logo.svg" alt="logo"></a>
+                            <div class="footer__logo">
+                                <a href="index.html"><img src="assets/majal/footer-logo.png" alt="logo"></a>
                             </div>
-                            <div class="footer__contact">
+                            <div class="footer__content footer__content-three">
+                                <p style="color: #ccc;">MAJAL IT NETWORKS & SECURITY provides high-quality low current systems, integrated security solutions, and structured cabling across Saudi Arabia.</p>
+                            </div>
+                            <div class="footer__social footer__social-four">
                                 <ul class="list-wrap">
-                                    <li><i class="flaticon-placeholder"></i>Sydney Harbour Circular City of
-                                        Sydney,Australia.</li>
-                                    <li><i class="flaticon-telephone"></i><a href="tel:0123456789">+123 888 9999</a></li>
-                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@beeko.com">info@beeko.com</a>
-                                    </li>
+                                    <li><a href="https://www.facebook.com/" target="_blank"><img
+                                                src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://x.com/home" target="_blank"><img
+                                                src="assets/img/icons/twitter.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.instagram.com/" target="_blank"><img
+                                                src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.pinterest.com/" target="_blank"><img
+                                                src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.youtube.com/" target="_blank"><img
+                                                src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title footer__widget-title-two">Useful Links</h4>
+                            <ul class="footer__widget-link footer__widget-link-two list-wrap">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="index.html#awards">Awards</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-8">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title footer__widget-title-two">Solutions</h4>
+                            <ul class="footer__widget-link footer__widget-link-two list-wrap">
+                                <li><a href="project-details.html">CCTV Surveillance Solutions</a></li>
+                                <li><a href="project-details.html">ANPR Solutions</a></li>
+                                <li><a href="project-details.html">Data Networks & Data Center</a></li>
+                                <li><a href="project-details.html">Telephony Systems</a></li>
+                                <li><a href="project-details.html">Access Control & Time Attendance</a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__widget">
-                            <h4 class="footer__widget-title footer__widget-title-two">About Company</h4>
-                            <ul class="footer__widget-link footer__widget-link-two list-wrap">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about.html">Sustainability</a></li>
-                                <li><a href="about.html">Leadership</a></li>
-                                <li><a href="about.html">Team News & Media</a></li>
-                                <li><a href="about.html">Careers</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title footer__widget-title-two">Quick links</h4>
-                            <ul class="footer__widget-link footer__widget-link-two list-wrap">
-                                <li><a href="about.html">How it’s Work</a></li>
-                                <li><a href="contact.html">Partners</a></li>
-                                <li><a href="contact.html">Testimonials</a></li>
-                                <li><a href="project.html">Case Studiesa</a></li>
-                                <li><a href="contact.html">Pricing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title footer__widget-title-two">Instagram Photos</h4>
-                            <div class="footer__instagram">
+                            <h4 class="footer__widget-title footer__widget-title-two">Contact</h4>
+                            <div class="footer__contact">
                                 <ul class="list-wrap">
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta01.jpg" alt="img"></a>
+                                    <li><i class="flaticon-placeholder"></i>P.O.Box, 246990 Riyadh, 11312</li>
+                                    <li><i class="flaticon-telephone"></i><a href="tel:+966540025337">+(966)
+                                            540025337</a>
                                     </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta02.jpg" alt="img"></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta03.jpg" alt="img"></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta04.jpg" alt="img"></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta05.jpg" alt="img"></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/images/footer_insta06.jpg" alt="img"></a>
-                                    </li>
+                                    <li><i class="flaticon-envelope"></i><a
+                                            href="mailto:info@majalnet.com">info@majalnet.com</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer__bottom-two">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="copyright__content-two">
-                            <p>Copyright © Beeko | All Right Reserved</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="footer__social footer__social-two">
-                            <ul class="list-wrap">
-                                <li><a href="https://www.facebook.com/" target="_blank"><img
-                                            src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg"
-                                            alt="" class="injectable"></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><img
-                                            src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.pinterest.com/" target="_blank"><img
-                                            src="assets/img/icons/pinterest.svg" alt="" class="injectable"></a></li>
-                                <li><a href="https://www.youtube.com/" target="_blank"><img
-                                            src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
-                            </ul>
-                        </div>
-                    </div>
+        </div>
+        <div class="footer__bottom-five">
+            <div class="container" style="display: flex; align-items: center;justify-content: space-between;">
+                <div class="copyright__content-four">
+                    <ul style="display: flex; list-style: none;gap: 20px;">
+                        <li><a href="#" style="color: #fff;">Terms Of Service</a></li>
+                        <li><a href="#" style="color: #fff;">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="copyright__content-four">
+                    <p>Copyright © Majal | All Right Reserved</p>
                 </div>
             </div>
         </div>
-        <div class="footer__shape-wrap-two">
-            <img src="assets/img/images/h2_footer_shape01.svg" alt="shape">
-            <img src="assets/img/images/h2_footer_shape02.svg" alt="shape">
-            <img src="assets/img/images/h2_footer_shape03.svg" alt="shape">
+        <div class="footer__shape-wrap-four">
+            <img src="assets/img/images/h5_footer_shape01.svg" alt="shape" data-aos="fade-right" data-aos-delay="300">
+            <img src="assets/img/images/h5_footer_shape02.svg" alt="shape">
+            <img src="assets/img/images/h5_footer_shape03.svg" alt="shape" class="rotateme">
+            <img src="assets/img/images/h5_footer_shape04.svg" alt="shape" class="alltuchtopdown">
         </div>
     </footer>
-    <!-- footer-area-end -->
 
 
 

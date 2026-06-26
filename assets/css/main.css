@@ -374,11 +374,11 @@ textarea {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1400px;
 }
 @media (max-width: 1500px) {
   .container {
-    max-width: 1300px;
+    max-width: 1350px;
   }
 }
 @media (max-width: 1199.98px) {
@@ -5531,7 +5531,8 @@ textarea {
 .slider__bg-four {
   background-size: cover;
   background-position: center;
-  min-height: 540px;
+  /* min-height: 650px; */
+  height: 75vh;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -5543,11 +5544,20 @@ textarea {
   padding: 100px 0;
   cursor: grab;
 }
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
   .slider__bg-four {
-    min-height: 650px;
+    min-height: 550px;
   }
-}
+} */
+
+
+/* @media (max-width: 1100px) {
+  .slider__bg-four {
+    min-height: 350px !important;
+  }
+} */
+
+
 @media (max-width: 991.98px) {
   .slider__bg-four {
     min-height: 600px;
@@ -23230,3 +23240,7 @@ blockquote cite {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.bg-light{
+  background: #f7f8fa !important;
+}
