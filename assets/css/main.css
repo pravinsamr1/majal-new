@@ -3178,7 +3178,7 @@ textarea {
   }
 }
 .tgmenu__nav .logo img {
-  max-height: 60px;
+  max-height: 75px;
 }
 .tgmenu__nav-left {
   display: -webkit-box;
@@ -3258,11 +3258,11 @@ textarea {
   padding: 0;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 0px;
 }
 @media (max-width: 1199.98px) {
   .tgmenu__navbar-wrap ul {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 120px;
   }
 }
 .tgmenu__navbar-wrap ul li {
@@ -23243,4 +23243,8 @@ blockquote cite {
 
 .bg-light{
   background: #f7f8fa !important;
+}
+
+.home-aboutt{
+  margin-bottom: 40px !important;
 }
