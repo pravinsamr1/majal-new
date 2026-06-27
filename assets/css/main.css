@@ -1395,7 +1395,7 @@ textarea {
   margin-bottom: 12px;
 }
 .section__title .title {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.2;
   margin: 0 0;
   text-transform: capitalize;
@@ -23247,4 +23247,16 @@ blockquote cite {
 
 .home-aboutt{
   margin-bottom: 40px !important;
+}
+
+.footerr-menuu{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.footerr-menuu a{
+  color: #fff;
+  transition: all 0.3s ease;
+  position: relative;
+  font-weight: 500;
 }
