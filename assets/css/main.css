@@ -5532,7 +5532,7 @@ textarea {
   background-size: cover;
   background-position: center;
   /* min-height: 650px; */
-  height: 75vh;
+  height: 80vh;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
