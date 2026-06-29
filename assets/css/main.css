@@ -1265,7 +1265,7 @@ textarea {
 }
 .breadcrumb__content .breadcrumb > * {
   font-size: 15px;
-  color: var(--tg-theme-primary);
+  color: #ffffff;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -22660,7 +22660,7 @@ blockquote cite {
   z-index: -1;
 }
 .footer__area-four {
-  background: var(--tg-theme-secondary);
+  /* background: var(--tg-theme-secondary); */
   position: relative;
   z-index: 1;
 }
@@ -23259,4 +23259,21 @@ blockquote cite {
   transition: all 0.3s ease;
   position: relative;
   font-weight: 500;
+}
+
+
+.footer-backgroundd{
+  background-image:url(../../assets/majal/footer.jpg);
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+
+.contt-add{
+  margin-bottom: 0px !important;
+}
+
+.contact-add{
+  margin-top: 10px;
 }

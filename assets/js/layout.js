@@ -142,7 +142,7 @@ const HEADER_HTML = `
                                 <div class="tgmenu__action tgmenu__action-six">
                                     <ul class="list-wrap">
                                         <li class="header-btn">
-                                            <a href="contact.html" class="tg-btn tg-btn-four tg-btn-five"
+                                            <a href="https://majalnet.freshdesk.com/support/login" target="_blank" rel="noopener noreferrer" class="tg-btn tg-btn-four tg-btn-five"
                                                 data-tr="nav.ticket">Submit
                                                  Ticket<img src="assets/img/icons/right_arrow02.svg" alt=""
                                                      class="injectable"></a>
@@ -299,7 +299,7 @@ const HEADER_HTML = `
 `;
 
 const FOOTER_HTML = `
-    <footer class="footer__area-four fix">
+    <footer class="footer__area-four fix footer-backgroundd" style="">
         <div class="footer__top-three" style="padding-top: 80px;">
             <div class="container">
                 <div class="row">
@@ -374,11 +374,11 @@ const FOOTER_HTML = `
         <div class="footer__bottom-five">
             <div class="container" style="display: flex; align-items: center;justify-content: space-between;">
                 <div class="copyright__content-four footerr-menuu">
-                   <p><a href="">Terms & Condition</a></p>
-                   <p><a href="">Privacy Policy</a></p>
+                   <p><a href="terms-conditions.html">Terms & Condition</a></p>
+                   <p><a href="privacy-policy.html">Privacy Policy</a></p>
                 </div>
                 <div class="copyright__content-four">
-                    <p>© 2008 - 2026 Majal IT Networks & Security. All Rights Reserved | Designed by <a href="https://impinfo.in" style="color: #fff;">Imperial Info Systems</a></p>
+                    <p>© 2008 - 2026 Majal IT Networks & Security. All Rights Reserved | Designed by <a href="https://impinfo.in" target="_blank" style="color: #fff;">Imperial Info Systems</a></p>
                 </div>
             </div>
         </div>
