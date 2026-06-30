@@ -1,0 +1,93 @@
+/*=============================
+    - Custom Style Enhancements
+===============================*/
+
+/* Solutions Megamenu Styles */
+@media (min-width: 992px) {
+    .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu {
+        min-width: 750px;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        gap: 5px 20px;
+        left: -150px;
+        /* shifts dropdown to align beautifully under the nav */
+        border-radius: 10px;
+    }
+
+    .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li {
+        display: block;
+    }
+
+    .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a i {
+        margin-right: 12px;
+        color: var(--tg-theme-primary);
+        font-size: 16px;
+        width: 20px;
+        text-align: center;
+    }
+
+    .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a::after {
+        content: none !important;
+    }
+}
+
+.project__thumb-two::before {
+    display: none !important;
+}
+
+/* Blog Detail Pages Custom Styles */
+.main-area {
+    overflow: visible !important;
+}
+
+@media (min-width: 992px) {
+    .project__sidebar {
+        position: sticky;
+        top: 110px;
+    }
+}
+
+.sidebar__cat-list .list-wrap li.active a {
+    background: var(--tg-theme-primary);
+    border-color: var(--tg-theme-primary);
+    color: var(--tg-color-white-default);
+}
+
+.sidebar__cat-list .list-wrap li.active a span {
+    color: var(--tg-theme-primary);
+}
+
+.sidebar__tag-list a:hover {
+    background: var(--tg-theme-primary) !important;
+    border-color: var(--tg-theme-primary) !important;
+    color: #fff !important;
+}
+
+/* Contact Page Heights & Aligned Layout */
+@media (min-width: 992px) {
+    .contact__info-wrap {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .contact__info-wrap .contact__info-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact__form-wrap {
+        height: 100%;
+    }
+}

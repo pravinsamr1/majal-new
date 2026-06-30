@@ -43,77 +43,7 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link class="main-css" rel="stylesheet" href="assets/css/main.css">
-    <style>
-        @media (min-width: 992px) {
-            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu {
-                min-width: 750px;
-                display: grid !important;
-                grid-template-columns: repeat(2, 1fr);
-                padding: 20px;
-                gap: 5px 20px;
-                left: -150px;
-                /* shifts dropdown to align beautifully under the nav */
-                border-radius: 10px;
-            }
-
-            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li {
-                display: block;
-            }
-
-            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a {
-                padding: 10px 15px;
-                font-size: 16px;
-                border-radius: 6px;
-                transition: all 0.2s ease-in-out;
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-            }
-
-            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a i {
-                margin-right: 12px;
-                color: var(--tg-theme-primary);
-                font-size: 16px;
-                width: 20px;
-                text-align: center;
-            }
-
-            .tgmenu__navbar-wrap ul li .sub-menu.solutions-sub-menu li a::after {
-                content: none !important;
-            }
-        }
-
-        .project__thumb-two::before {
-            display: none !important;
-        }
-
-        .main-area {
-            overflow: visible !important;
-        }
-
-        @media (min-width: 992px) {
-            .project__sidebar {
-                position: sticky;
-                top: 110px;
-            }
-        }
-
-        .sidebar__cat-list .list-wrap li.active a {
-            background: var(--tg-theme-primary);
-            border-color: var(--tg-theme-primary);
-            color: var(--tg-color-white-default);
-        }
-
-        .sidebar__cat-list .list-wrap li.active a span {
-            color: var(--tg-theme-primary);
-        }
-
-        .sidebar__tag-list a:hover {
-            background: var(--tg-theme-primary) !important;
-            border-color: var(--tg-theme-primary) !important;
-            color: #fff !important;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Shared layout JS -->
     <script src="assets/js/layout.js"></script>
 </head>
@@ -242,40 +172,94 @@
                                 <div class="project__details-report">
                                     <h2 class="title-two">Acoustic Performance & Intelligibility</h2>
                                     <p>Our engineers perform comprehensive acoustic modeling to measure the Speech Transmission Index (STI). This ensures that every voice broadcast remains highly intelligible even in large, highly reverberant spaces like lobbies, warehouses, and open courtyards.</p>
-                                    <div class="project__details-report-inner">
-                                        <div class="progress__wrap">
-                                            <div class="progress__item">
-                                                <h6 class="title">Speech Intelligibility</h6>
-                                                <div class="progress" role="progressbar" aria-label="Speech Intelligibility" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100">
-                                                    <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 96%"><span>96%</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- faq-area -->
+                        <section class="faq__area">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <h2 class="title-two" style="margin-bottom: 25px;">Frequently Asked Questions</h2>
+                                    <div class="col-lg-12">
+                                        <div class="faq__wrap">
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            Why is an EN54 certified system important?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>EN54 is the mandatory European standard for fire detection and fire alarm systems, specifically voice alarm equipment. Having an EN54-certified system ensures that voice evacuation announcements remain clear, intelligible, and operational during emergencies.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            What is Speech Transmission Index (STI) and how is it measured?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>STI is a measure of speech intelligibility in a room or open area. We use advanced acoustic measurement tools to analyze acoustics and speaker placement, ensuring that announcements are easily understood, even in noisy industrial settings.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            Can a Public Address system be integrated with fire alarm networks?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>Yes. Our systems are designed to fully interface with building fire alarm panels. When a fire alarm triggers, the PA system automatically overrides background music and broadcasts automated voice evacuation instructions.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                            What is multi-zone paging?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>Multi-zone paging allows you to broadcast announcements or background music to specific areas of a building (e.g., cafeteria, warehouses, offices) independently, rather than interrupting the entire facility.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                            Do the speakers have battery backup in case of power failure?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>Yes. Our PA and voice evacuation systems utilize centralized rack-mounted amplifiers backed by dedicated battery charging units (UPS) to maintain operations for emergency broadcasts during main power outages.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="progress__item">
-                                                <h6 class="title">Signal Coverage</h6>
-                                                <div class="progress" role="progressbar" aria-label="Signal Coverage" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
-                                                    <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 97%"><span>97%</span></div>
-                                                </div>
-                                            </div>
-                                            <div class="progress__item">
-                                                <h6 class="title">Fire Alarm Integration</h6>
-                                                <div class="progress" role="progressbar" aria-label="Fire Alarm Integration" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                                    <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" style="width: 100%"><span>100%</span></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="inner-img">
-                                            <img src="assets/majal/about1.jpg" alt="Acoustic Testing">
                                         </div>
                                     </div>
                                 </div>
-                                <p>From single-building public address setups to complex IP-based multi-site audio networks, Majal IT Networks & Security designs systems that keep people safe and informed. We provide complete end-to-end services, starting with acoustic calculations and system configuration, through certified installation and routine testing.</p>
                             </div>
-                        </div>
+                        </section>
+                        <!-- faq-area-end -->
                     </div>
                     <div class="col-30">
                         <aside class="project__sidebar">
                             <div class="sidebar__widget">
-                                <h4 class="sidebar__widget-title">Our Blogs</h4>
+                                <h4 class="sidebar__widget-title">Our Recent Blogs</h4>
                                 <div class="sidebar__cat-list">
                                     <ul class="list-wrap">
                                         <li><a href="blog-cctv.html">CCTV Solutions <span><i class="fas fa-arrow-right"></i></span></a></li>
@@ -311,34 +295,7 @@
         </section>
         <!-- project-details-area-end -->
 
-        <!-- cta-area -->
-        <section class="cta__area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <div class="cta__content">
-                            <div class="section__title white-title">
-                                <h2 class="title">Ready to Work with a Trusted MAJAL IT NETWORKS & SECURITY Company in
-                                    Riyadh!</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="cta__btn">
-                            <a href="contact.html" class="tg-btn tg-btn-four tg-btn-six tg-hover-btn">Let’s Make a
-                                Schedule <img src="assets/img/icons/right_arrow02.svg" alt="" class="injectable"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cta__shape-wrap">
-                <img src="assets/img/images/cta_shape01.svg" alt="shape" data-aos="fade-up-right" data-aos-delay="400">
-                <img src="assets/img/images/cta_shape02.svg" alt="shape" data-aos="fade-up" data-aos-delay="400">
-                <img src="assets/img/images/cta_shape03.svg" alt="shape">
-            </div>
-        </section>
-        <!-- cta-area-end -->
-
+        
     </main>
     <!-- main-area-end -->
 
