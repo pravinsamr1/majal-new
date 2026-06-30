@@ -127,8 +127,8 @@ const HEADER_HTML = `
                                             </ul>
                                         </li>
                                         <li class=""><a href="awards.html" data-tr="nav.awards">Awards</a></li>
-                                        <li class=""><a href="videos.html" data-tr="nav.videos">Videos</a></li>
                                         <li class=""><a href="blogs.html" data-tr="nav.blogs">Blogs</a></li>
+                                        <li class=""><a href="#0" data-tr="nav.videos">Shop</a></li>
                                         <li><a href="contact.html" data-tr="nav.contact">Contact</a></li>
                                     </ul>
                                 </div>
@@ -333,11 +333,11 @@ const FOOTER_HTML = `
                         <div class="footer__widget">
                             <h4 class="footer__widget-title footer__widget-title-two">Useful Links</h4>
                             <ul class="footer__widget-link footer__widget-link-two list-wrap">
-                                <li><a href="about.html">About Us</a></li>
                                 <li><a href="awards.html">Awards</a></li>
                                 <li><a href="videos.html">Videos</a></li>
                                 <li><a href="blogs.html">Blogs</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="#0">Shop</a></li>
+                                <li><a href="#0">Jobs</a></li>
                             </ul>
                         </div>
                     </div>

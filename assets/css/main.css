@@ -6225,7 +6225,7 @@ textarea {
 .brand__area-three::after {
   content: "";
   position: absolute;
-  right: -180px;
+  right: 0px;
   top: 298px;
   width: 320px;
   height: 320px;
