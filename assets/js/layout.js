@@ -130,9 +130,10 @@ const HEADER_HTML = `
                                         <li class=""><a href="blogs.html" data-tr="nav.blogs">Blogs</a></li>
                                         <li class=""><a href="#0" data-tr="nav.videos">Shop</a></li>
                                         <li><a href="contact.html" data-tr="nav.contact">Contact</a></li>
+                                        <li class="d-block d-lg-none"><a href="https://majalnet.freshdesk.com/support/login" target="_blank" rel="noopener noreferrer" data-tr="nav.ticket">Submit Ticket</a></li>
                                     </ul>
                                 </div>
-                                <div class="tgmenu__action tgmenu__action-six" style="margin-right: 20px;">
+                                <div class="tgmenu__action tgmenu__action-six arabic-lang-btn-wrapper" style="margin-right: 20px;">
                                     <ul class="list-wrap">
                                         <li class="header-btn">
                                             <a href="#" class="tg-btn tg-btn-four tg-btn-five">عربي</a>
@@ -162,14 +163,9 @@ const HEADER_HTML = `
             <nav class="tgmobile__menu-box">
                 <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
                 <div class="nav-logo">
-                    <a href="index.html"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                    <a href="index.html"><img src="assets/majal/logo.png" alt="Logo"></a>
                 </div>
-                <div class="tgmobile__search">
-                    <form action="#">
-                        <input type="text" placeholder="Search here...">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
+                
                 <div class="tgmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>
@@ -300,7 +296,7 @@ const HEADER_HTML = `
 
 const FOOTER_HTML = `
     <footer class="footer__area-four fix footer-backgroundd" style="">
-        <div class="footer__top-three" style="padding-top: 80px;">
+        <div class="footer__top-three footer-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6">
