@@ -23315,3 +23315,11 @@ blockquote cite {
     max-height: 60px;
   }
 }
+
+.breadcrumb__content .title{
+  font-weight: 700 !important;
+}
+
+.footer__social .footer__social-four{
+  margin-top: 20px !important;
+}

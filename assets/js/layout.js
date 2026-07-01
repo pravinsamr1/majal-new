@@ -123,7 +123,7 @@ const HEADER_HTML = `
                                                 <li><a href="electricla-installation-maintanance.html" data-tr="ser.elec">Electrical
                                                          Installation &
                                                          Maintenance</a></li>
-                                                <li><a href="services-details.html" data-tr="ser.fire">Annual Maintanance Contact</a></li>
+                                                <li><a href="annual-maintanance.html" data-tr="ser.fire">Annual Maintanance Contact</a></li>
                                             </ul>
                                         </li>
                                         <li class=""><a href="awards.html" data-tr="nav.awards">Awards</a></li>
@@ -305,23 +305,9 @@ const FOOTER_HTML = `
                                 <a href="index.html"><img src="assets/majal/footer-logo.png" alt="logo"></a>
                             </div>
                             <div class="footer__content footer__content-three">
-                                <p>Felis consquat magnis fames sagittis ultrices plasodales porttitor quisque ultrice
-                                    tempor turpis.</p>
+                                <p>Majal IT Networks has been providing innovative IT and security solutions since 2007, enhancing operational efficiency and driving growth for clients across various sectors in Saudi Arabia.</p>
                             </div>
-                            <div class="footer__social footer__social-four">
-                                <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img
-                                                src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img
-                                                src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.linkedin.com/" target="_blank"><img
-                                                src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.tiktok.com/" target="_blank"><img
-                                                src="assets/img/icons/tiktok.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.youtube.com/" target="_blank"><img
-                                                src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -362,6 +348,20 @@ const FOOTER_HTML = `
                                             href="mailto:info@majalnet.com">info@majalnet.com</a></li>
                                 </ul>
                             </div>
+                            <div class="footer__social footer__social-four">
+                                <ul class="list-wrap">
+                                    <li><a href="https://www.facebook.com/" target="_blank"><img
+                                                src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.instagram.com/" target="_blank"><img
+                                                src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.linkedin.com/" target="_blank"><img
+                                                src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.tiktok.com/" target="_blank"><img
+                                                src="assets/img/icons/tiktok.svg" alt="" class="injectable"></a></li>
+                                    <li><a href="https://www.youtube.com/" target="_blank"><img
+                                                src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -382,7 +382,6 @@ const FOOTER_HTML = `
             <img src="assets/img/images/h5_footer_shape01.svg" alt="shape" data-aos="fade-right" data-aos-delay="300">
             <img src="assets/img/images/h5_footer_shape02.svg" alt="shape">
             <img src="assets/img/images/h5_footer_shape03.svg" alt="shape" class="rotateme">
-            <img src="assets/img/images/h5_footer_shape04.svg" alt="shape" class="alltuchtopdown">
         </div>
     </footer>
 `;
