@@ -342,10 +342,10 @@ const FOOTER_HTML = `
                             <h4 class="footer__widget-title footer__widget-title-two">Solutions</h4>
                             <ul class="footer__widget-link footer__widget-link-two list-wrap">
                                 <li><a href="cctv-solutions.html">CCTV Surveillance Solutions</a></li>
-                                <li><a href="project-details.html">ANPR Solutions</a></li>
                                 <li><a href="project-details.html">Data Networks & Data Center</a></li>
-                                <li><a href="project-details.html">Telephony Systems</a></li>
                                 <li><a href="project-details.html">Access Control & Time Attendance</a></li>
+                                <li><a href="project-details.html">Public Address & Voice Evacuation</a></li>
+                                <li><a href="project-details.html">Hotel Wi-Fi Solutions</a></li>
                             </ul>
                         </div>
                     </div>

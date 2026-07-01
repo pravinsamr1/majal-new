@@ -13469,7 +13469,7 @@ textarea {
 }
 .project__content-five .title {
   margin-bottom: 0;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 600;
 }
 .project__content-five .arrow {
@@ -17343,12 +17343,12 @@ textarea {
 }
 .blog__post-content .title {
   margin-bottom: 20px;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
 }
 .blog__post-content .title a {
   display: inline;
-  background-image: linear-gradient(var(--tg-heading-color), var(--tg-heading-color)), linear-gradient(var(--tg-heading-color), var(--tg-heading-color));
+  /* background-image: linear-gradient(var(--tg-heading-color), var(--tg-heading-color)), linear-gradient(var(--tg-heading-color), var(--tg-heading-color)); */
   background-size: 0% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
