@@ -319,7 +319,7 @@ const FOOTER_HTML = `
                                 <li><a href="videos.html">Videos</a></li>
                                 <li><a href="blogs.html">Blogs</a></li>
                                 <li><a href="#0">Shop</a></li>
-                                <li><a href="#0">Jobs</a></li>
+                                <li><a href="job.html">Jobs</a></li>
                             </ul>
                         </div>
                     </div>

@@ -100,7 +100,7 @@
         justify-content: center;
     }
     .contact__form-wrap {
-        height: 100%;
+        /* height: 100%; */
     }
 }
 
@@ -240,6 +240,143 @@
         height: auto !important;
         line-height: 1 !important;
     }
+}
+
+/* ==========================================================================
+   Career/Job Page Styles
+   ========================================================================== */
+.career-item-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.career-item-card .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--tg-theme-secondary);
+}
+
+.career-item-card p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.career-item-card p strong {
+    color: var(--tg-theme-primary);
+}
+
+.career-item-card .list-wrap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.career-item-card .list-wrap li {
+    background: #FAF9F6;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--tg-theme-secondary);
+}
+
+.career-item-card .career__item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+}
+
+.career-item-card .salary {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--tg-theme-secondary);
+}
+
+.career-item-card .salary span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--tg-body-color);
+}
+
+.career-item-card .apply-trigger-btn {
+    padding: 12px 25px;
+    font-size: 14px;
+}
+
+.career-form-wrap {
+    position: sticky;
+    top: 120px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+    z-index: 10;
+}
+
+.career-form-wrap .title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.career-form-wrap p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--tg-body-color);
+    opacity: 0.85;
+    margin-bottom: 30px;
+}
+
+.career-form-wrap input[type="text"],
+.career-form-wrap input[type="email"],
+.career-form-wrap select,
+.career-form-wrap textarea {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.career-form-wrap select {
+    width: 100%;
+    height: 55px;
+    padding: 0 20px;
+    color: var(--tg-body-color);
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.career-form-wrap .form-grp-resume {
+    margin-bottom: 25px;
+}
+
+.career-form-wrap .form-grp-resume label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.career-form-wrap input[type="file"] {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.career-form-wrap textarea {
+    min-height: 120px;
+}
+
+.career-form-wrap button[type="submit"] {
+    width: 100%;
 }
 
 

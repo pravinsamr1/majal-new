@@ -23323,3 +23323,7 @@ blockquote cite {
 .footer__social .footer__social-four{
   margin-top: 20px !important;
 }
+
+.job-padding{
+  padding: 60px;
+}
