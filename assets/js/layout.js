@@ -120,7 +120,7 @@ const HEADER_HTML = `
                                         <li class="menu-item-has-children"><a href="#"
                                                 data-tr="nav.services">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="services-details.html" data-tr="ser.elec">Electrical
+                                                <li><a href="electricla-installation-maintanance.html" data-tr="ser.elec">Electrical
                                                          Installation &
                                                          Maintenance</a></li>
                                                 <li><a href="services-details.html" data-tr="ser.fire">Annual Maintanance Contact</a></li>

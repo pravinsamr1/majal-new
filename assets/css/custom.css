@@ -130,7 +130,7 @@
     border-radius: 12px;
     overflow: hidden;
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -214,176 +214,15 @@
 /*/* ==========================================================================
    Custom Interactive Modal for Award Details (Centered Image + Bottom Caption)
    ========================================================================== */
-.award-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.35s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.award-modal.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.award-modal-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-}
-
-.award-modal-container {
-    position: relative;
-    width: 90%;
-    max-width: 800px;
-    background: transparent;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateY(30px);
-    transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.award-modal.active .award-modal-container {
-    transform: translateY(0);
-}
-
-.award-modal-close {
-    position: absolute;
-    top: -50px;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
+/* WhatsApp button styles on awards card */
+.project__content-five .arrow.whatsapp-btn {
+    background: #25D366;
     color: #fff;
-    cursor: pointer;
-    transition: all 0.2s;
-    z-index: 20;
-}
-
-.award-modal-close:hover {
-    background: #fff;
-    color: #080a5b;
-    transform: rotate(90deg);
-}
-
-.award-modal-image-wrap {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-}
-
-.award-modal-image-wrap img {
-    max-width: 100%;
-    max-height: 70vh;
-    object-fit: contain;
-    border-radius: 12px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-}
-
-.award-modal-caption {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    color: #fff;
-    padding: 20px 25px;
-    background: #080a5b;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-.award-modal-title {
     font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 8px;
+}
+.project__content-five .arrow.whatsapp-btn:hover {
+    background: #20ba5a;
     color: #fff;
-}
-
-.award-modal-desc {
-    font-size: 15px;
-    line-height: 1.6;
-    color: #cbd5e1;
-    margin-bottom: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Modal Navigation Arrows */
-.award-modal-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: rgba(8, 10, 91, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #fff;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    z-index: 25;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-}
-
-.award-modal-nav:hover {
-    background: var(--tg-theme-primary);
-    border-color: var(--tg-theme-primary);
-    transform: translateY(-50%) scale(1.1);
-}
-
-.award-modal-prev {
-    left: 30px;
-}
-
-.award-modal-next {
-    right: 30px;
-}
-
-@media (max-width: 767px) {
-    .award-modal-nav {
-        width: 40px;
-        height: 40px;
-        font-size: 16px;
-        background: rgba(8, 10, 91, 0.9);
-    }
-    .award-modal-prev {
-        left: 10px;
-    }
-    .award-modal-next {
-        right: 10px;
-    }
 }
 
 /* Arabic Language Button on Mobile Navbar */

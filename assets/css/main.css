@@ -17342,9 +17342,10 @@ textarea {
   }
 }
 .blog__post-content .title {
-  margin-bottom: 20px;
+
   font-size: 18px;
   font-weight: 500;
+  line-height: 27px;
 }
 .blog__post-content .title a {
   display: inline;
