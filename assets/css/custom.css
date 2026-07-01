@@ -376,7 +376,93 @@
 }
 
 .career-form-wrap button[type="submit"] {
-    width: 100%;
+    /* overridden by job-btnn */
 }
 
+.career-submit-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
 
+.job-btnn {
+    width: 40% !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+/* ==========================================================================
+   Floating Call Button (Vibrating)
+   ========================================================================== */
+@keyframes phone-vibrate {
+    0% { transform: scale(1) rotate(0deg); }
+    5% { transform: scale(1.1) rotate(-15deg); }
+    10% { transform: scale(1.1) rotate(15deg); }
+    15% { transform: scale(1.1) rotate(-15deg); }
+    20% { transform: scale(1.1) rotate(15deg); }
+    25% { transform: scale(1) rotate(0deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes phone-pulse {
+    0% { transform: scale(1); opacity: 0.8; }
+    100% { transform: scale(1.6); opacity: 0; }
+}
+
+.floating-call-btn {
+    position: fixed;
+    bottom: 95px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--tg-theme-primary);
+    color: #ffffff !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: phone-vibrate 2.5s infinite;
+}
+
+.floating-call-btn i {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.floating-call-btn:hover {
+    background-color: var(--tg-theme-secondary);
+    transform: scale(1.05);
+}
+
+.floating-call-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--tg-theme-primary);
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    animation: phone-pulse 2s infinite;
+    z-index: -1;
+}
+
+/* Adjustments for mobile to ensure it doesn't overlap important elements */
+@media (max-width: 575.98px) {
+    .floating-call-btn {
+        width: 50px;
+        height: 50px;
+        bottom: 85px;
+        right: 15px;
+        font-size: 20px;
+    }
+}

@@ -384,6 +384,10 @@ const FOOTER_HTML = `
             <img src="assets/img/images/h5_footer_shape03.svg" alt="shape" class="rotateme">
         </div>
     </footer>
+    <!-- Floating Call Button -->
+    <a href="tel:+966540025337" class="floating-call-btn" title="Call Us Now">
+        <i class="fas fa-phone"></i>
+    </a>
 `;
 
 function injectHeader() {
@@ -398,6 +402,35 @@ function injectFooter() {
     const placeholder = document.getElementById('footer-placeholder');
     if (placeholder) {
         placeholder.outerHTML = FOOTER_HTML;
+    }
+    
+    // Inject the Gallabox WhatsApp widget script dynamically
+    if (!window.gbwawc) {
+        (function (w, d, s, u) {
+            w.gbwawc = {
+                url: u,
+                options: {
+                    waId: "+966 966502997129",
+                    siteName: "Majal IT Network",
+                    siteTag: "Online",
+                    siteLogo: "https://majal.pravinsam.in/assets/img/favicon.png",
+                    widgetPosition: "RIGHT",
+                    welcomeMessage: "Welcome to Majal IT Network",
+                    triggerMessage: "",
+                    brandColor: "#25D366",
+                    messageText: "Which Service you are looking for ",
+                    replyOptions: ["CCTV Survillence Solutions", "Data Network & Data Center", "APNR solurtions", "Intruder Alarm Systems", "Time & Attendance Management System", "Visitor Management Systems", "Public Address & Voice Evacuation", "Fire Alarm Systems", "MATV (Master Antenna Television) Systems", "Professional Audio Visual Solutions","Access Control Systems", "Gate Barriers & Turnstiles", "Biometric Attendance Solutions", "Intercom Solutions"],
+                    version: "v1",
+                    widgetPositionMarginX: "12",
+                    widgetPositionMarginY: "12",
+                },
+            };
+            var h = d.getElementsByTagName(s)[0],
+                j = d.createElement(s);
+            j.async = true;
+            j.src = u + "/whatsapp-widget.min.js?_=" + "2026-07-01 17";
+            h.parentNode.insertBefore(j, h);
+        })(window, document, "script", "https://waw.gallabox.com");
     }
 }
 
