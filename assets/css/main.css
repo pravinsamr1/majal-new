@@ -23283,6 +23283,10 @@ blockquote cite {
     padding-top: 80px;
   }
 
+.index-acc-padd{
+  padding-bottom: 30px;
+}
+
 @media(max-width:767px){
   p{
     text-align: justify !important;
@@ -23314,6 +23318,10 @@ blockquote cite {
   .tgmenu__nav .logo img{
     max-height: 60px;
   }
+
+  .index-acc-padd{
+  padding-bottom: 30px;
+}
 }
 
 .breadcrumb__content .title{
