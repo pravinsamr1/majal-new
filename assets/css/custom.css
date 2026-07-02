@@ -254,7 +254,7 @@
 }
 
 .career-item-card .title {
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 15px;
     color: var(--tg-theme-secondary);
 }
@@ -315,14 +315,14 @@
 .career-form-wrap {
     position: sticky;
     top: 120px;
-    padding: 40px;
+    padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.02);
     z-index: 10;
 }
 
 .career-form-wrap .title {
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -387,7 +387,7 @@
 }
 
 .job-btnn {
-    width: 40% !important;
+    width: 50% !important;
     display: inline-flex !important;
     justify-content: center !important;
     align-items: center !important;
