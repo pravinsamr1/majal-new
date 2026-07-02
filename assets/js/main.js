@@ -208,6 +208,10 @@ var brandSwiper = new Swiper('.brand-active', {
     slidesPerView: 5,
     spaceBetween: 24,
     loop: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         '1500': {
             slidesPerView: 6,

@@ -6892,7 +6892,7 @@ textarea {
   display: flex;
   align-items: center;
   gap: 20px;
-  width: 68%;
+  /* width: 68%; */
 }
 @media (max-width: 1199.98px) {
   .about__content-bottom-two .rating-wrap {
