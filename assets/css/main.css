@@ -21708,7 +21708,7 @@ blockquote cite {
     	23. Contact
 ===============================*/
 .contact__area {
-  padding: 85px 0 110px;
+  padding: 70px 0px;
 }
 .contact__area-two {
   background: var(--tg-theme-secondary);
@@ -21812,8 +21812,8 @@ blockquote cite {
 }
 .contact__info-item p {
   margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
 }
 .contact__info-item .list-wrap li {
   margin-bottom: 3px;
@@ -23259,7 +23259,7 @@ blockquote cite {
   color: #fff;
   transition: all 0.3s ease;
   position: relative;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 
