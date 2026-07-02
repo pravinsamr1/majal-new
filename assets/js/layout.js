@@ -123,7 +123,7 @@ const HEADER_HTML = `
                                                 <li><a href="electricla-installation-maintanance.html" data-tr="ser.elec">Electrical
                                                          Installation &
                                                          Maintenance</a></li>
-                                                <li><a href="annual-maintanance.html" data-tr="ser.fire">Annual Maintanance Contact</a></li>
+                                                <li><a href="annual-maintanance.html" data-tr="ser.fire">Annual Maintanance Contract</a></li>
                                             </ul>
                                         </li>
                                         <li class=""><a href="awards.html" data-tr="nav.awards">Awards</a></li>
