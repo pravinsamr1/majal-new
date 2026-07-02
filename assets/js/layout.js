@@ -127,7 +127,7 @@ const HEADER_HTML = `
                                             </ul>
                                         </li>
                                         <li class=""><a href="awards.html" data-tr="nav.awards">Awards</a></li>
-                                        <li class=""><a href="blogs.html" data-tr="nav.blogs">Blogs</a></li>
+                                        <li class=""><a href="blogs.html" data-tr="nav.blogs">Clientele</a></li>
                                         <li class=""><a href="#0" data-tr="nav.videos">Shop</a></li>
                                         <li><a href="contact.html" data-tr="nav.contact">Contact</a></li>
                                         <li class="d-block d-lg-none"><a href="https://majalnet.freshdesk.com/support/login" target="_blank" rel="noopener noreferrer" data-tr="nav.ticket">Submit Ticket</a></li>
