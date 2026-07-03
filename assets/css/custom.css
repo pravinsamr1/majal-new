@@ -494,3 +494,16 @@
     transform: translateY(-3px) scale(1.08);
     z-index: 10;
 }
+
+/* CCTV Partner Logos Border */
+.cctv-brand-active .brand-item {
+    border: 1px solid #eef0f3;
+    border-radius: 8px;
+    padding: 15px 10px;
+    background: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.cctv-brand-active .brand-item:hover {
+    border-color: var(--tg-theme-primary);
+}
