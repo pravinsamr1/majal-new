@@ -65,54 +65,54 @@ const HEADER_HTML = `
                                                 <li><a href="cctv-solutions.html" data-tr="sol.cctv"><i
                                                             class="fas fa-video"></i> CCTV
                                                          Surveillance Solutions</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.anpr"><i
+                                                <li><a href="anpr-solutions.html" data-tr="sol.anpr"><i
                                                             class="fas fa-camera"></i> ANPR
                                                          Solutions</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.data"><i
+                                                <li><a href="data-networks-data-center.html" data-tr="sol.data"><i
                                                             class="fas fa-server"></i> Data
                                                          Networks & Data Center</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.tel"><i
+                                                <li><a href="telephony-systems.html" data-tr="sol.tel"><i
                                                             class="fas fa-phone-alt"></i>
                                                          Telephony Systems</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.pa"><i
+                                                <li><a href="public-address-voice-evacuation.html" data-tr="sol.pa"><i
                                                             class="fas fa-volume-up"></i>
                                                          Public Address & Voice Evacuation</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.av"><i
+                                                <li><a href="audio-visual-multimedia-control.html" data-tr="sol.av"><i
                                                             class="fas fa-tv"></i> Audio
                                                          Visual & Multimedia Control</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.access"><i
+                                                <li><a href="access-control-time-attendance.html" data-tr="sol.access"><i
                                                             class="fas fa-fingerprint"></i>
                                                          Access Control & Time Attendance</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.gate"><i
+                                                <li><a href="gate-barriers-turnstiles.html" data-tr="sol.gate"><i
                                                             class="fas fa-door-closed"></i>
                                                          Gate Barriers, Turnstiles & Road Blockers</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.intruder"><i
+                                                <li><a href="intruder-alarm-systems.html" data-tr="sol.intruder"><i
                                                             class="fas fa-bell"></i> Intruder
                                                          Alarm Systems</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.fire"><i
+                                                <li><a href="fire-alarm-systems.html" data-tr="sol.fire"><i
                                                             class="fas fa-fire-extinguisher"></i> Fire Alarm Systems</a>
                                                 </li>
-                                                <li><a href="project-details.html" data-tr="sol.wifi"><i
+                                                <li><a href="hotel-wifi-solutions.html" data-tr="sol.wifi"><i
                                                             class="fas fa-wifi"></i> Hotel
                                                          Wi-Fi Solutions</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.xray"><i
+                                                <li><a href="xray-inspection-metal-detector-systems.html" data-tr="sol.xray"><i
                                                             class="fas fa-shield-alt"></i>
                                                          X-Ray Inspection & Metal Detector Systems</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.cabling"><i
+                                                <li><a href="structured-cabling-fiber-networks.html" data-tr="sol.cabling"><i
                                                             class="fas fa-network-wired"></i>
                                                          Structured Cabling & Fiber Networks</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.matv"><i
+                                                <li><a href="matv-systems.html" data-tr="sol.matv"><i
                                                             class="fas fa-broadcast-tower"></i> MATV Systems</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.trans"><i
+                                                <li><a href="transmission-systems.html" data-tr="sol.trans"><i
                                                             class="fas fa-satellite-dish"></i>
                                                          Transmission Systems</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.ups"><i
+                                                <li><a href="ups-power-backup-solutions.html" data-tr="sol.ups"><i
                                                             class="fas fa-battery-full"></i>
                                                          UPS Power Backup Solutions</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.assoc"><i
+                                                <li><a href="our-associates.html" data-tr="sol.assoc"><i
                                                             class="fas fa-handshake"></i> Our
                                                          Associates</a></li>
-                                                <li><a href="project-details.html" data-tr="sol.ref"><i
+                                                <li><a href="customer-references.html" data-tr="sol.ref"><i
                                                             class="fas fa-users"></i> Customer
                                                          References</a></li>
                                             </ul>
@@ -328,10 +328,10 @@ const FOOTER_HTML = `
                             <h4 class="footer__widget-title footer__widget-title-two">Solutions</h4>
                             <ul class="footer__widget-link footer__widget-link-two list-wrap">
                                 <li><a href="cctv-solutions.html">CCTV Surveillance Solutions</a></li>
-                                <li><a href="project-details.html">Data Networks & Data Center</a></li>
-                                <li><a href="project-details.html">Access Control & Time Attendance</a></li>
-                                <li><a href="project-details.html">Public Address & Voice Evacuation</a></li>
-                                <li><a href="project-details.html">Hotel Wi-Fi Solutions</a></li>
+                                <li><a href="data-networks-data-center.html">Data Networks & Data Center</a></li>
+                                <li><a href="access-control-time-attendance.html">Access Control & Time Attendance</a></li>
+                                <li><a href="public-address-voice-evacuation.html">Public Address & Voice Evacuation</a></li>
+                                <li><a href="hotel-wifi-solutions.html">Hotel Wi-Fi Solutions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -385,7 +385,7 @@ const FOOTER_HTML = `
         </div>
     </footer>
     <!-- Floating Call Button -->
-    <a href="tel:+966540025337" class="floating-call-btn" title="Call Us Now">
+    <a href="tel:+966502997129" class="floating-call-btn" title="Call Us Now">
         <i class="fas fa-phone"></i>
     </a>
 `;
@@ -410,7 +410,7 @@ function injectFooter() {
             w.gbwawc = {
                 url: u,
                 options: {
-                    waId: "+966 966502997129",
+                    waId: "+966502997129",
                     siteName: "Majal IT Network",
                     siteTag: "Online",
                     siteLogo: "https://majal.pravinsam.in/assets/img/favicon.png",
