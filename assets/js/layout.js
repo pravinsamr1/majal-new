@@ -410,7 +410,7 @@ function injectFooter() {
             w.gbwawc = {
                 url: u,
                 options: {
-                    waId: "+966502997129",
+                    waId: "+966 502997129",
                     siteName: "Majal IT Network",
                     siteTag: "Online",
                     siteLogo: "https://majal.pravinsam.in/assets/img/favicon.png",
