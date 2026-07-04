@@ -109,12 +109,6 @@ const HEADER_HTML = `
                                                 <li><a href="ups-power-backup-solutions.html" data-tr="sol.ups"><i
                                                             class="fas fa-battery-full"></i>
                                                          UPS Power Backup Solutions</a></li>
-                                                <li><a href="our-associates.html" data-tr="sol.assoc"><i
-                                                            class="fas fa-handshake"></i> Our
-                                                         Associates</a></li>
-                                                <li><a href="customer-references.html" data-tr="sol.ref"><i
-                                                            class="fas fa-users"></i> Customer
-                                                         References</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children"><a href="#"
