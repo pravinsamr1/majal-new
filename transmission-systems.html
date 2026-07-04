@@ -122,7 +122,7 @@
                                     <p>Our transmission nodes are housed in weather-protected enclosures, built to operate in high desert temperatures.</p>
                                     
                                     <div class="row align-items-stretch gy-4 mt-2">
-                                        <div class="col-lg-7 col-md-12">
+                                        <div class="col-lg-12 col-md-12">
                                             <ul class="list-wrap about__list-item-two h-100 d-flex flex-column justify-content-center" style="gap: 16px; margin-bottom: 0;">
                                                 <li style="align-items: flex-start; line-height: 1.45; margin-bottom: 0; font-size: 16px;">
                                                     <div class="icon" style="margin-top: 2px; flex-shrink: 0;">
@@ -157,33 +157,7 @@
                                                     <span>Solar-powered network stations for remote security cameras</span>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div class="col-lg-5 col-md-12">
-                                            <div class="row g-3 h-100 align-items-center">
-                                                <div class="col-sm-6 col-12">
-                                                    <div class="client__box-two h-100 d-flex align-items-center justify-content-start" style="padding: 24px 20px; min-height: 110px;">
-                                                        <div class="icon" style="flex-shrink: 0; font-size: 40px; line-height: 1;">
-                                                            <i class="flaticon-investment"></i>
-                                                        </div>
-                                                        <div class="content">
-                                                            <h2 class="count" style="font-size: 28px; margin-bottom: 4px; line-height: 1;">10km+</h2>
-                                                            <span style="font-size: 13px; font-weight: 600; line-height: 1.2;">Wireless Ranges</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 col-12">
-                                                    <div class="client__box-two h-100 d-flex align-items-center justify-content-start" style="padding: 24px 20px; min-height: 110px;">
-                                                        <div class="icon" style="flex-shrink: 0; font-size: 40px; line-height: 1;">
-                                                            <i class="flaticon-growth"></i>
-                                                        </div>
-                                                        <div class="content">
-                                                            <h2 class="count" style="font-size: 28px; margin-bottom: 4px; line-height: 1;">Gbps+</h2>
-                                                            <span style="font-size: 13px; font-weight: 600; line-height: 1.2;">Data Throughput</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </div>  
                                     </div>
 
                                 </div>
@@ -211,46 +185,16 @@
                                 </div>
                                 <div class="services__details-content-bottom">
                                     <h2 class="title">Strategic Tech Partners & Associates <span>Trust MNC - MAJAL for Professional Deploys</span></h2>
-                                    <div class="swiper-container brand-active-two fix">
+                                    <div class="swiper-container cctv-brand-active fix">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="brand-item">
-                                                    <img src="assets/majal/p2.jpg" alt="Cisco">
+                                                    <img src="assets/majal/transmission/l1.jpg" alt="Transmission Brand">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="brand-item">
-                                                    <img src="assets/majal/p3.jpg" alt="TP-Link">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="brand-item">
-                                                    <img src="assets/majal/p4.jpg" alt="Dell">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="brand-item">
-                                                    <img src="assets/majal/p5.jpg" alt="D-Link">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="brand-item">
-                                                    <img src="assets/majal/p6.jpg" alt="Hikvision">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="brand-item">
-                                                    <img src="assets/majal/p7.jpg" alt="Bosch">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="brand-item">
-                                                    <img src="assets/majal/p8.jpg" alt="HP">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="brand-item">
-                                                    <img src="assets/majal/p9.jpg" alt="Panasonic">
+                                                    <img src="assets/majal/transmission/l2.jpg" alt="Transmission Brand">
                                                 </div>
                                             </div>
                                         </div>
@@ -495,6 +439,37 @@
     <script src="assets/js/main.js"></script>
     <script>
         SVGInject(document.querySelectorAll("img.injectable"));
+
+        // Custom Auto-Scrolling Swiper for Brand logos
+        new Swiper('.cctv-brand-active', {
+            slidesPerView: 4,
+            spaceBetween: 24,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                '1500': {
+                    slidesPerView: 5,
+                },
+                '1200': {
+                    slidesPerView: 5,
+                },
+                '992': {
+                    slidesPerView: 5,
+                },
+                '768': {
+                    slidesPerView: 3,
+                },
+                '576': {
+                    slidesPerView: 3,
+                },
+                '0': {
+                    slidesPerView: 3,
+                },
+            },
+        });
     </script>
 </body>
 
