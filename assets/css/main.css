@@ -9841,10 +9841,10 @@ textarea {
 }
 .services__details-quality {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .services__details-quality > p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .services__details-quality-inner {
   display: -webkit-box;
