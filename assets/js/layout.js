@@ -20,19 +20,19 @@ const HEADER_HTML = `
                                 <li>
                                     <div class="tg-header__top-social">
                                         <ul class="list-wrap">
-                                            <li><a href="https://www.facebook.com/" target="_blank"><img
+                                            <li><a href="https://www.facebook.com/profile.php?id=61591435534541" target="_blank"><img
                                                         src="assets/img/icons/facebook.svg" alt=""
                                                         class="injectable"></a></li>
-                                            <li><a href="https://x.com/home" target="_blank"><img
+                                            <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><img
                                                         src="assets/img/icons/linkedin.svg" alt=""
                                                         class="injectable"></a></li>
-                                            <li><a href="https://www.instagram.com/" target="_blank"><img
+                                            <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><img
                                                         src="assets/img/icons/instagram.svg" alt=""
                                                         class="injectable"></a></li>
-                                            <li><a href="https://www.pinterest.com/" target="_blank"><img
+                                            <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><img
                                                         src="assets/img/icons/tiktok.svg" alt="" class="injectable"></a>
                                             </li>
-                                            <li><a href="https://www.youtube.com/" target="_blank"><img
+                                            <li><a href="https://www.youtube.com/@majalweb" target="_blank"><img
                                                         src="assets/img/icons/youtube.svg" alt="" class="injectable"></a>
                                             </li>
                                         </ul>
@@ -165,11 +165,11 @@ const HEADER_HTML = `
                 </div>
                 <div class="social-links">
                     <ul class="list-wrap">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61591435534541" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                        <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.youtube.com/@majalweb" target="_blank"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -272,13 +272,15 @@ const HEADER_HTML = `
             <div class="offCanvas__social">
                 <h6 class="title">Follow us</h6>
                 <ul class="list-wrap">
-                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/icons/facebook.svg"
+                    <li><a href="https://www.facebook.com/profile.php?id=61591435534541" target="_blank"><img src="assets/img/icons/facebook.svg"
                                 alt="" class="injectable"></a></li>
-                    <li><a href="https://x.com/home" target="_blank"><img src="assets/img/icons/twitter.svg" alt=""
-                                class="injectable"></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/icons/instagram.svg"
+                    <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><img src="assets/img/icons/instagram.svg"
                                 alt="" class="injectable"></a></li>
-                    <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/icons/pinterest.svg"
+                    <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><img src="assets/img/icons/linkedin.svg"
+                                alt="" class="injectable"></a></li>
+                    <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><img src="assets/img/icons/tiktok.svg"
+                                alt="" class="injectable"></a></li>
+                    <li><a href="https://www.youtube.com/@majalweb" target="_blank"><img src="assets/img/icons/youtube.svg"
                                 alt="" class="injectable"></a></li>
                 </ul>
             </div>
@@ -344,15 +346,15 @@ const FOOTER_HTML = `
                             </div>
                             <div class="footer__social footer__social-four">
                                 <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><img
+                                    <li><a href="https://www.facebook.com/profile.php?id=61591435534541" target="_blank"><img
                                                 src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><img
+                                    <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><img
                                                 src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.linkedin.com/" target="_blank"><img
+                                    <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><img
                                                 src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.tiktok.com/" target="_blank"><img
+                                    <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><img
                                                 src="assets/img/icons/tiktok.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.youtube.com/" target="_blank"><img
+                                    <li><a href="https://www.youtube.com/@majalweb" target="_blank"><img
                                                 src="assets/img/icons/youtube.svg" alt="" class="injectable"></a></li>
                                 </ul>
                             </div>
