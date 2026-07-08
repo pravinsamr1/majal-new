@@ -507,3 +507,8 @@
 .cctv-brand-active .brand-item:hover {
     border-color: var(--tg-theme-primary);
 }
+
+/* Make Key Achievements / Awards Swiper images slightly smaller */
+.project__thumb-seven img {
+    height: 500px !important;
+}

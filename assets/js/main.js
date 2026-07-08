@@ -523,6 +523,10 @@ var projectSwiper = new Swiper('.project-active-five', {
     spaceBetween: 24,
     loop: true,
     centeredSlides: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         '1500': {
             slidesPerView: 3,
