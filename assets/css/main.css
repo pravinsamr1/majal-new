@@ -5560,7 +5560,7 @@ textarea {
 
 @media (max-width: 991.98px) {
   .slider__bg-four {
-    min-height: 600px;
+    min-height: 550px;
   }
 }
 .slider__bg-four::before {
@@ -8200,7 +8200,7 @@ textarea {
 }
 
 .section-py-130 {
-  padding: 70px 0 40px 0;
+  padding: 70px 0 60px 0;
 }
 @media (max-width: 991.98px) {
   .section-py-130 {
@@ -23354,8 +23354,5 @@ blockquote cite {
   }
   .blog-non{
     display: none;
-  }
-  .slider__bg-four{
-    height: 60vh;
   }
 }
