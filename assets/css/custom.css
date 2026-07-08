@@ -512,3 +512,134 @@
 .project__thumb-seven img {
     height: 500px !important;
 }
+
+/* Mobile Overrides for List Items */
+@media (max-width: 767px) {
+    .about__list-item-two li {
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+        align-items: flex-start !important;
+    }
+    .about__list-item-two li .icon {
+        margin-top: 3px !important;
+    }
+}
+
+/* Custom Details List for Access Control and other pages */
+.custom-details-list {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.custom-details-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 400; /* removes bold */
+    line-height: 1.5;
+    margin-bottom: 14px;
+    color: var(--tg-body-color);
+}
+.custom-details-list li:last-child {
+    margin-bottom: 0;
+}
+.custom-details-list li i {
+    font-size: 18px;
+    color: var(--tg-theme-primary);
+    width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+@media (max-width: 767px) {
+    .custom-details-list li {
+        align-items: flex-start;
+    }
+    .custom-details-list li i {
+        margin-top: 3px;
+    }
+}
+
+/* Custom Features Row & Cards on Access Control Page */
+.custom-features-row {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    gap: 20px 0;
+}
+.services__details-quality-box {
+    height: 100%;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 25px;
+    border: 1px solid rgba(var(--tg-theme-primary-rgb, 99, 91, 255), 0.15);
+    border-radius: 8px;
+    background: rgba(var(--tg-theme-primary-rgb, 99, 91, 255), 0.02);
+}
+
+/* Gate Barriers & Turnstiles Solution Layout Classes */
+.gate-barriers-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gate-barriers-list {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.gate-barriers-row {
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+
+
+.gate-barriers-img-wrapper {
+    margin-bottom: 15px !important;
+}
+
+.gate-barriers-heading {
+    font-size: 18px !important;
+    margin-bottom: 12px !important;
+    color: var(--tg-theme-primary) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.gate-barriers-text {
+    margin-bottom: 0 !important;
+}
+
+.gate-barriers-section {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.gate-barriers-section-heading {
+    font-size: 18px !important;
+    margin-bottom: 15px !important;
+    color: var(--tg-theme-primary) !important;
+    display: flex !important;
+    gap: 10px !important;
+    align-items: center !important;
+}
+
+.gate-barriers-quality {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.gate-barriers-quality-heading {
+    font-size: 18px !important;
+    margin-bottom: 15px !important;
+    color: var(--tg-theme-primary) !important;
+}
+
+.gate-barriers-title-two {
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+}
