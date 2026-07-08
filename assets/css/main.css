@@ -23355,4 +23355,7 @@ blockquote cite {
   .blog-non{
     display: none;
   }
+  .slider__bg-four{
+    height: 60vh;
+  }
 }
