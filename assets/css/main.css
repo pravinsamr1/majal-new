@@ -9942,7 +9942,7 @@ textarea {
   margin-bottom: 30px;
 }
 .services__sidebar {
-  margin-right: 26px;
+  /* margin-right: 26px; */
 }
 @media (max-width: 1199.98px) {
   .services__sidebar {
@@ -9955,7 +9955,7 @@ textarea {
   }
 }
 .services__sidebar-two {
-  margin-left: 26px;
+  margin-left: 36px;
 }
 @media (max-width: 1199.98px) {
   .services__sidebar-two {

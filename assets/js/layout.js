@@ -92,15 +92,15 @@ const HEADER_HTML = `
                                                 <li><a href="fire-alarm-systems.html" data-tr="sol.fire"><i
                                                             class="fas fa-fire-extinguisher"></i> Fire Alarm Systems</a>
                                                 </li>
-                                                <li><a href="hotel-wifi-solutions.html" data-tr="sol.wifi"><i
-                                                            class="fas fa-wifi"></i> Hotel
-                                                         Wi-Fi Solutions</a></li>
-                                                <li><a href="xray-inspection-metal-detector-systems.html" data-tr="sol.xray"><i
-                                                            class="fas fa-shield-alt"></i>
-                                                         X-Ray Inspection & Metal Detector Systems</a></li>
                                                 <li><a href="structured-cabling-fiber-networks.html" data-tr="sol.cabling"><i
                                                             class="fas fa-network-wired"></i>
                                                          Structured Cabling & Fiber Networks</a></li>
+                                                <li><a href="xray-inspection-metal-detector-systems.html" data-tr="sol.xray"><i
+                                                            class="fas fa-shield-alt"></i>
+                                                         X-Ray Inspection & Metal Detector Systems</a></li>
+                                                <li><a href="hotel-wifi-solutions.html" data-tr="sol.wifi"><i
+                                                            class="fas fa-wifi"></i> Hotel
+                                                         Wi-Fi Solutions</a></li>
                                                 <li><a href="matv-systems.html" data-tr="sol.matv"><i
                                                             class="fas fa-broadcast-tower"></i> MATV Systems</a></li>
                                                 <li><a href="transmission-systems.html" data-tr="sol.trans"><i
