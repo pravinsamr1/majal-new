@@ -23,7 +23,7 @@ const HEADER_HTML = `
                                             <li><a href="https://www.facebook.com/profile.php?id=61591435534541" target="_blank"><img
                                                         src="assets/img/icons/facebook.svg" alt=""
                                                         class="injectable"></a></li>
-                                            <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><img
+                                            <li><a href="https://www.linkedin.com/in/mohamed-ibrahim-56bab598/?skipRedirect=true" target="_blank"><img
                                                         src="assets/img/icons/linkedin.svg" alt=""
                                                         class="injectable"></a></li>
                                             <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><img
@@ -168,7 +168,7 @@ const HEADER_HTML = `
                         <li><a href="https://www.facebook.com/profile.php?id=61591435534541" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><i class="fab fa-tiktok"></i></a></li>
                         <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/mohamed-ibrahim-56bab598/?skipRedirect=true" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="https://www.youtube.com/@majalweb" target="_blank"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
@@ -276,7 +276,7 @@ const HEADER_HTML = `
                                 alt="" class="injectable"></a></li>
                     <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><img src="assets/img/icons/instagram.svg"
                                 alt="" class="injectable"></a></li>
-                    <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><img src="assets/img/icons/linkedin.svg"
+                    <li><a href="https://www.linkedin.com/in/mohamed-ibrahim-56bab598/?skipRedirect=true" target="_blank"><img src="assets/img/icons/linkedin.svg"
                                 alt="" class="injectable"></a></li>
                     <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><img src="assets/img/icons/tiktok.svg"
                                 alt="" class="injectable"></a></li>
@@ -350,7 +350,7 @@ const FOOTER_HTML = `
                                                 src="assets/img/icons/facebook.svg" alt="" class="injectable"></a></li>
                                     <li><a href="https://www.instagram.com/majalitnetworks/" target="_blank"><img
                                                 src="assets/img/icons/instagram.svg" alt="" class="injectable"></a></li>
-                                    <li><a href="https://www.linkedin.com/in/ibrahim-mohamed-3ba5b541a/" target="_blank"><img
+                                    <li><a href="https://www.linkedin.com/in/mohamed-ibrahim-56bab598/?skipRedirect=true" target="_blank"><img
                                                 src="assets/img/icons/linkedin.svg" alt="" class="injectable"></a></li>
                                     <li><a href="https://www.tiktok.com/@majalitnetwork" target="_blank"><img
                                                 src="assets/img/icons/tiktok.svg" alt="" class="injectable"></a></li>
@@ -399,7 +399,7 @@ function injectFooter() {
     if (placeholder) {
         placeholder.outerHTML = FOOTER_HTML;
     }
-    
+
     // Inject the Gallabox WhatsApp widget script dynamically
     if (!window.gbwawc) {
         (function (w, d, s, u) {
@@ -415,7 +415,7 @@ function injectFooter() {
                     triggerMessage: "",
                     brandColor: "#25D366",
                     messageText: "Which Service you are looking for ",
-                    replyOptions: ["CCTV Survillence Solutions", "Data Network & Data Center", "APNR solurtions", "Intruder Alarm Systems", "Time & Attendance Management System", "Visitor Management Systems", "Public Address & Voice Evacuation", "Fire Alarm Systems", "MATV (Master Antenna Television) Systems", "Professional Audio Visual Solutions","Access Control Systems", "Gate Barriers & Turnstiles", "Biometric Attendance Solutions", "Intercom Solutions"],
+                    replyOptions: ["CCTV Survillence Solutions", "Data Network & Data Center", "APNR solurtions", "Intruder Alarm Systems", "Time & Attendance Management System", "Visitor Management Systems", "Public Address & Voice Evacuation", "Fire Alarm Systems", "MATV (Master Antenna Television) Systems", "Professional Audio Visual Solutions", "Access Control Systems", "Gate Barriers & Turnstiles", "Biometric Attendance Solutions", "Intercom Solutions"],
                     version: "v1",
                     widgetPositionMarginX: "12",
                     widgetPositionMarginY: "12",
@@ -457,7 +457,7 @@ function initHeaderActiveLink() {
         let parentLi = matchedLink.closest('li');
         if (parentLi) {
             parentLi.classList.add('active');
-            
+
             // If it's inside a submenu, also add active to the parent menu-item-has-children li
             let grandParentLi = parentLi.parentElement.closest('.menu-item-has-children');
             if (grandParentLi) {
