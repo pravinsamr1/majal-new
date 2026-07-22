@@ -3288,9 +3288,9 @@ textarea {
 }
 .tgmenu__navbar-wrap ul li .sub-menu {
   position: absolute;
-  left: 0;
+  left: -100px;
   top: 100%;
-  min-width: 230px;
+  min-width: 330px;
   border: 1px solid #f5f5f5;
   background: var(--tg-color-white-default);
   margin: 0;
@@ -23376,9 +23376,7 @@ blockquote cite {
 }
 }
 
-/* ==========================================================================
-   Large Screen Typography Adjustments
-   ========================================================================== */
+/* ===== Large Screen Typography Adjustments ===== */
 @media (min-width: 2560px) {
   h1 { font-size: calc(2.5rem + 3px); }
   h2 { font-size: calc(2rem + 3px); }
