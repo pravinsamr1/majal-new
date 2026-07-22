@@ -697,7 +697,7 @@ html, body {
 
 /* For video breadcrumbs: Apply increased height/padding */
 .breadcrumb__area:has(.breadcrumb-video) {
-    padding: 180px 0 !important;
+    padding: 250px 0 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -712,4 +712,14 @@ html, body {
 }
 
 
-
+/* ==========================================================================
+   Large Screen Typography Adjustments (32-inch, 55-inch monitors & TVs)
+   ========================================================================== */
+@media (min-width: 2560px) {
+    html {
+        font-size: 20px; /* Scales rem-based elements up by ~4px */
+    }
+    :root {
+        --tg-body-font-size: 20px; /* Updates the custom property for body text */
+    }
+}

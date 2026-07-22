@@ -3340,7 +3340,7 @@ textarea {
   justify-content: space-between;
 }
 .tgmenu__navbar-wrap ul li .sub-menu li:hover > a, .tgmenu__navbar-wrap ul li .sub-menu li.active > a {
-  color: var(--tg-theme-primary);
+  color: #fd3006;
 }
 .tgmenu__navbar-wrap ul li:hover > .sub-menu {
   opacity: 1;
@@ -3348,7 +3348,7 @@ textarea {
   transform: scale(1);
 }
 .tgmenu__navbar-wrap > ul > li.active a, .tgmenu__navbar-wrap > ul > li:hover a {
-  color: var(--tg-theme-primary);
+  color: #fd3006;
 }
 .tgmenu__main-menu li.menu-item-has-children .dropdown-btn {
   display: none;
@@ -23374,4 +23374,17 @@ blockquote cite {
 .brand__content-two{
   margin-bottom: 30px !important;
 }
+}
+
+/* ==========================================================================
+   Large Screen Typography Adjustments
+   ========================================================================== */
+@media (min-width: 2560px) {
+  h1 { font-size: calc(2.5rem + 3px); }
+  h2 { font-size: calc(2rem + 3px); }
+  h3 { font-size: calc(1.75rem + 3px); }
+  h4 { font-size: calc(1.5rem + 3px); }
+  h5 { font-size: calc(1.25rem + 3px); }
+  h6 { font-size: calc(1rem + 3px); }
+  p, span, a { font-size: calc(var(--tg-body-font-size) + 3px); }
 }
